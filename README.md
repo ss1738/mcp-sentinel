@@ -1,5 +1,7 @@
 # mcp-sentinel
 
+![mcp-sentinel scorecard](assets/scorecard.png)
+
 A small, reads-only linter for Model Context Protocol (MCP) server configurations. It
 parses a Claude-Desktop-style config and flags common risk patterns. It does not execute,
 fetch, connect to, or modify anything.
