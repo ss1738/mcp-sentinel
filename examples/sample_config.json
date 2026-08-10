@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shell-tool":   { "command": "/bin/bash", "args": ["-c", "do-stuff"] },
+    "fs-broad":     { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-filesystem", "/"] },
+    "leaky-env":    { "command": "node", "args": ["srv.js"], "env": { "EXAMPLE_TOKEN": "PLACEHOLDER-EXAMPLE-TOKEN-DO-NOT-USE-000" } },
+    "well-behaved": { "command": "npx", "args": ["@scope/notes-server@2.1.0", "./notes"] }
+  }
+}

@@ -1,0 +1,13 @@
+[package]
+name = "mcp-sentinel"
+version = "0.1.0"
+edition = "2021"
+description = "Heuristic linter for MCP server configs. Flags common permission and supply-chain smells. Not a vulnerability scanner and not a safety guarantee."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[[bin]]
+name = "mcp-sentinel"
+path = "src/main.rs"
